@@ -1,0 +1,33 @@
+#score {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#game {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hole {
+    width: 100px;
+    height: 100px;
+    background-color: #7F6548;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+}
+
+.hole:hover {
+    background-color: #B28C6D;
+}
